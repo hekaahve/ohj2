@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxTreenirekisteri.InstructionsGUIController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Home">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <TextArea editable="false" text="Treenirekisterin avulla voi pitää kirjaa erilaisista treeniliikkeistä ja niiden tuloksia, jota käyttäjä on tehnyt. &#10;Käyttäjä voi täten seurata esimerkiksi montako punnerrusta on tehty. Rekisterin pääikkunassa&#10;on oikealla listattu jo syötettyjä tuloksia uusin alimpana. &#10;&#10;Ikkunan oikeassa laidassa on alasvetovalikko, jossa käyttäjä voi etsiä tiettyjä liikkeitä &#10;sisältäviä tuloksia. Painike &quot;overview&quot; nollaa tuloslistauksen näyttäen kaikki. &#10;&#10;Käyttäjä voi lisätä erilaisia liikkeitä, ja liikkeelle tulostyypin (reps, kg, cal, meters (m) menuvalikosta &quot;add movement&quot;.&#10;&#10;Käyttäjä voi lisätä uuden tuloksen jo rekisterissä olevasta liikkeestä painikkeesta / menuvalikosta &quot;add result&quot; jolloin&#10;tuloksen syöttämiseen aukeaa uusi ikkuna. Ikkunassa on myös mahdollisuus muokata jo syötettyä tulosta&#10;painikkeesta &quot;edit result&quot; jolloin muokattava tulos siirtyy pääikkunan tuloslistaukseen.  &#10;&#10;" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
